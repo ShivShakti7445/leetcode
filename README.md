@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ShivShakti7445/leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ShivShakti7445/leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/ShivShakti7445/leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0542-01-matrix](https://github.com/ShivShakti7445/leetcode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/ShivShakti7445/leetcode/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/ShivShakti7445/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/ShivShakti7445/leetcode/tree/master/0733-flood-fill) |
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0542-01-matrix](https://github.com/ShivShakti7445/leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/ShivShakti7445/leetcode/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/ShivShakti7445/leetcode/tree/master/1036-rotting-oranges) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/ShivShakti7445/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -131,6 +133,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0542-01-matrix](https://github.com/ShivShakti7445/leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/ShivShakti7445/leetcode/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/ShivShakti7445/leetcode/tree/master/1036-rotting-oranges) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0542-01-matrix](https://github.com/ShivShakti7445/leetcode/tree/master/0542-01-matrix) |
 <!---LeetCode Topics End-->
