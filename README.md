@@ -140,4 +140,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0542-01-matrix](https://github.com/ShivShakti7445/leetcode/tree/master/0542-01-matrix) |
+## Database
+|  |
+| ------- |
+| [0595-big-countries](https://github.com/ShivShakti7445/leetcode/tree/master/0595-big-countries) |
 <!---LeetCode Topics End-->
