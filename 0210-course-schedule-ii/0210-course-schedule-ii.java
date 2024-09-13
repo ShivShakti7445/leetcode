@@ -1,89 +1,116 @@
 // class Solution {
 //     public int[] findOrder(int numCourses, int[][] prerequisites) {
-       
+
+//         // if(prerequisites==null || prerequisites[0]==0 )return new int[0];
+
+//         ArrayList<ArrayList<Integer>> adj=new ArrayList<>();
+//         for(int i=0;i<numCourses;i++){
+//             adj.add(new ArrayList<>());
+//         }
+//         for(int i=0;i<prerequisites.length;i++){
+//             adj.get(prerequisites[i][1]).add(prerequisites[i][0]);
+//         }
+
+//         int vis[]=new int[numCourses];
+//         int pathvis[]=new int[numCourses];
 //         Stack<Integer> st=new Stack<>();
-//         for (int i=0;i<prerequisites.length;i++){
-//             if(prerequisites[i][0]>prerequisites[i][1]){
-//                 if(!st.contains(prerequisites[i][1]))
-//                 st.add(prerequisites[i][1]);
-//                 if(!st.contains(prerequisites[i][0]))
-//                 st.add(prerequisites[i][0]);
+
+//         //boolean hasCycle = false;
+
+//         for(int i=0;i<numCourses;i++){
+//             if(vis[i]==0){
+//                 if(dfs(i,vis,pathvis,st,adj)) return new int[0];
 //             }
 //         }
-
-//         int arr[]=new int[st.size()];
-//          if(prerequisites==null||prerequisites.length==0) {
-//             int[] result = new int[numCourses];
-//             for (int i = 0; i < numCourses; i++) {
-//                 result[i] = numCourses - 1 - i;  // Reverse order (to match [1, 0] for numCourses=2)
-//             }
-//             return result;
-//          }
-//         for(int i=0;i<arr.length;i++){
-//             arr[i]=st.pop();
-//         }
-
-//         Arrays.sort(arr);
-
-//         if(arr.length==numCourses){
-//             return arr;
-//         }
-//         return new int[0];
         
+//         int[]ans=new int[numCourses];
+//         for(int i=0;i<st.size();i++){
+//            ans[i]=st.pop();
+//         }
+
+//         return ans;
+//     }
+
+//     private static boolean dfs(int node,int[]vis,int[]pathvis,Stack<Integer> st,ArrayList<ArrayList<Integer>> adj){
+//         vis[node]=1;
+//         pathvis[node]=1;
+
+//         for(int it:adj.get(node)){
+//             if(vis[it]==0){
+//                if(dfs(it,vis,pathvis,st,adj)){
+//                 return true;
+//                }
+//             }
+            
+//             else if(pathvis[it]==1)return true;
+//         }
+
+//         st.push(node);
+//         pathvis[node]=0;
+
+//         return false;
 //     }
 // }
-
 import java.util.*;
 
 class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-        // Step 1: Create an adjacency list to represent the graph
-        List<List<Integer>> adjList = new ArrayList<>();
+        // Initialize adjacency list for the graph
+        ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
         for (int i = 0; i < numCourses; i++) {
-            adjList.add(new ArrayList<>());
+            adj.add(new ArrayList<>());
         }
         
-        // Step 2: Create an in-degree array to count prerequisites for each course
-        int[] inDegree = new int[numCourses];
-        
-        // Step 3: Build the graph (adjacency list) and in-degree array
-        for (int[] prerequisite : prerequisites) {
-            int course = prerequisite[0];
-            int prereq = prerequisite[1];
-            adjList.get(prereq).add(course);
-            inDegree[course]++;
+        // Fill the adjacency list with the prerequisites
+        for (int i = 0; i < prerequisites.length; i++) {
+            adj.get(prerequisites[i][1]).add(prerequisites[i][0]);
         }
-        
-        // Step 4: Initialize a queue with courses that have no prerequisites (in-degree == 0)
-        Queue<Integer> queue = new LinkedList<>();
+
+        int[] vis = new int[numCourses];
+        int[] pathvis = new int[numCourses];
+        Stack<Integer> st = new Stack<>();
+        boolean hasCycle = false;
+
+        // Perform DFS for each course
         for (int i = 0; i < numCourses; i++) {
-            if (inDegree[i] == 0) {
-                queue.offer(i);
-            }
-        }
-        
-        // Step 5: Perform BFS to process each course in topological order
-        int[] courseOrder = new int[numCourses];
-        int index = 0;  // Index for courseOrder array
-        
-        while (!queue.isEmpty()) {
-            int currentCourse = queue.poll();
-            courseOrder[index++] = currentCourse;
-            
-            // Step 6: Reduce the in-degree of dependent courses
-            for (int nextCourse : adjList.get(currentCourse)) {
-                inDegree[nextCourse]--;
-                if (inDegree[nextCourse] == 0) {
-                    queue.offer(nextCourse);
+            if (vis[i] == 0) {
+                if (dfs(i, vis, pathvis, st, adj)) {
+                    // If a cycle is found, return an empty array
+                    return new int[0];
                 }
             }
         }
-        
-        // Step 7: Check if we were able to process all the courses
-        if (index == numCourses) {
-            return courseOrder;  // All courses have been processed
-        } else {
-            return new int[0];  // Cycle detected, it's impossible to finish all courses
+
+        // Fill the answer array from the stack in reverse order
+        int[] ans = new int[numCourses];
+        for (int i = 0; i < numCourses; i++) {
+            ans[i] = st.pop();
         }
+
+        return ans;
+    }
+
+    // DFS function to detect cycles and perform topological sort
+    private static boolean dfs(int node, int[] vis, int[] pathvis, Stack<Integer> st, ArrayList<ArrayList<Integer>> adj) {
+        vis[node] = 1;
+        pathvis[node] = 1;
+
+        for (int it : adj.get(node)) {
+            // If the node is not visited, do DFS on it
+            if (vis[it] == 0) {
+                if (dfs(it, vis, pathvis, st, adj)) {
+                    return true; // Cycle detected
+                }
+            } 
+            // If the node is already in the current path, cycle detected
+            else if (pathvis[it] == 1) {
+                return true;
+            }
+        }
+
+        st.push(node);
+        pathvis[node] = 0; // Remove from the current path
+
+        return false; // No cycle detected
     }
 }
