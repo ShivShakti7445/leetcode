@@ -3,14 +3,14 @@ class Solution {
         List<Integer> parent = new ArrayList<>();
         List<Integer> rank = new ArrayList<>();
 
-        public DisjointSet(int n) {
+        public DisjointSet(int n) { // create list of parents ans rank
             for (int i = 0; i <= n; i++) {
                 parent.add(i);
                 rank.add(0);
             }
         }
 
-        public int findUPar(int node) {
+        public int findUPar(int node) { // it is used to find the ultimate parent of any node
             if (node == parent.get(node)) {
                 return node;
             }
@@ -55,22 +55,24 @@ class Solution {
     public int makeConnected(int n, int[][] connections) {
         DisjointSet ds= new  DisjointSet(n);
         int countextra=0;
+
+        // code for finding the extra edges
         for(int i=0;i<connections.length;i++){
             int u=connections[i][0];
             int v=connections[i][1];
 
             if(ds.findUPar(u)==ds.findUPar(v)){
-                countextra++;
+                countextra++; // of u and v havd same ultimate parent then it means , this is the extra edges
             }
             else{
-                ds.unionByRank(u,v);
+                ds.unionByRank(u,v); // otherwise do the union of the edges
             }
         }
         int cn=0;
 
         for(int i=0;i<n;i++){
             if(ds.parent.get(i)==i){
-                cn++;
+                cn++; // cont for counting the no. of connected edges (concept is: node witch having parent of themselve, that only edge contribute into no, of edges )
             }
         }
         int ans=cn-1;
