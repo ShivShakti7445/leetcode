@@ -18,7 +18,7 @@ class Solution {
         }
 
         // Base case: when amount is 0, there's one way to make amount 0 (using no coins)
-        for (int ind = 0; ind < coins.length; ind++) {
+        for (int ind = 1; ind < coins.length; ind++) {
             dp[ind][0] = 1;
         }
 
