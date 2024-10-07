@@ -153,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/ShivShakti7445/leetcode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/ShivShakti7445/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/ShivShakti7445/leetcode/tree/master/0455-assign-cookies) |
+| [0494-target-sum](https://github.com/ShivShakti7445/leetcode/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/ShivShakti7445/leetcode/tree/master/0542-01-matrix) |
 | [0721-accounts-merge](https://github.com/ShivShakti7445/leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/ShivShakti7445/leetcode/tree/master/0733-flood-fill) |
@@ -220,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/ShivShakti7445/leetcode/tree/master/0213-house-robber-ii) |
 | [0322-coin-change](https://github.com/ShivShakti7445/leetcode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/ShivShakti7445/leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/ShivShakti7445/leetcode/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/ShivShakti7445/leetcode/tree/master/0542-01-matrix) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ShivShakti7445/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0967-minimum-falling-path-sum](https://github.com/ShivShakti7445/leetcode/tree/master/0967-minimum-falling-path-sum) |
@@ -288,4 +290,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0455-assign-cookies](https://github.com/ShivShakti7445/leetcode/tree/master/0455-assign-cookies) |
+## Backtracking
+|  |
+| ------- |
+| [0494-target-sum](https://github.com/ShivShakti7445/leetcode/tree/master/0494-target-sum) |
 <!---LeetCode Topics End-->
