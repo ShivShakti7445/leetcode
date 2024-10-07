@@ -17,6 +17,7 @@ class Solution {
         for (int ind = 1; ind < coins.length; ind++) {
             for (int amt = 0; amt <= amount; amt++) {
                 int nottake = dp[ind - 1][amt]; // not taking the current coin
+                
                 int take = Integer.MAX_VALUE;  // taking the current coin
                 if (coins[ind] <= amt && dp[ind][amt - coins[ind]] != Integer.MAX_VALUE) {
                     take = 1 + dp[ind][amt - coins[ind]];
