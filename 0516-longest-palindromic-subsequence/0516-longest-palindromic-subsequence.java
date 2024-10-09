@@ -1,6 +1,7 @@
 class Solution {
     public int longestPalindromeSubseq(String s) {
-        return longestCommonSubsequence(s, new StringBuilder(s).reverse().toString());
+        String reversed= new StringBuilder(s).reverse().toString();
+        return longestCommonSubsequence(s, reversed);
     }
     static int longestCommonSubsequence(String text1, String text2) {
         int n=text1.length();
