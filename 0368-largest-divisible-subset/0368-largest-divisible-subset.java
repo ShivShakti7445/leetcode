@@ -1,3 +1,33 @@
+// class Solution {
+//     public List<Integer> largestDivisibleSubset(int[] nums) {
+//         int n = nums.length;
+//         Arrays.sort(nums);  // Sort the input array
+//         List<Integer> list = new ArrayList<>();
+//         list.add(nums[0]);  // Start with the first element
+//         int length = 1;
+
+//         for (int i = 1; i < n; i++) {
+//             if (nums[i] % list.get(length - 1) == 0) {  // Check divisibility with the last element in the list
+//                 list.add(nums[i]);  // Add the current element to the list
+//                 length++;
+//             } else {
+//                 // Perform binary search to find the correct index for nums[i]
+//                 int ind = Collections.binarySearch(list, nums[i]);
+//                 if (ind < 0) {
+//                     ind = -(ind + 1);  // Adjust the index if the element is not found
+//                 }
+                
+//                 // If index is within bounds, replace the element
+//                 if (ind < length) {
+//                     list.set(ind, nums[i]);
+//                 }
+//             }
+//         }
+
+//         return list;  // Return the list containing the largest divisible subset
+//     }
+// }
+
 class Solution {
     public List<Integer> largestDivisibleSubset(int[] nums) {
      int n=nums.length;
