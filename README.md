@@ -176,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/ShivShakti7445/leetcode/tree/master/1073-number-of-enclaves) |
 | [1129-longest-string-chain](https://github.com/ShivShakti7445/leetcode/tree/master/1129-longest-string-chain) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/ShivShakti7445/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/ShivShakti7445/leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1753-path-with-minimum-effort](https://github.com/ShivShakti7445/leetcode/tree/master/1753-path-with-minimum-effort) |
 ## Monotonic Stack
 |  |
@@ -257,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/ShivShakti7445/leetcode/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/ShivShakti7445/leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/ShivShakti7445/leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/ShivShakti7445/leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ShivShakti7445/leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Database
 |  |
@@ -313,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/ShivShakti7445/leetcode/tree/master/0455-assign-cookies) |
 | [0721-accounts-merge](https://github.com/ShivShakti7445/leetcode/tree/master/0721-accounts-merge) |
 | [1129-longest-string-chain](https://github.com/ShivShakti7445/leetcode/tree/master/1129-longest-string-chain) |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/ShivShakti7445/leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 ## Biconnected Component
 |  |
 | ------- |
