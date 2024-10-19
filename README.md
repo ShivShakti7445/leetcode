@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0085-maximal-rectangle](https://github.com/ShivShakti7445/leetcode/tree/master/0085-maximal-rectangle) |
 | [0094-binary-tree-inorder-traversal](https://github.com/ShivShakti7445/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/ShivShakti7445/leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/ShivShakti7445/leetcode/tree/master/0145-binary-tree-postorder-traversal) |
@@ -148,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0063-unique-paths-ii](https://github.com/ShivShakti7445/leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/ShivShakti7445/leetcode/tree/master/0064-minimum-path-sum) |
+| [0085-maximal-rectangle](https://github.com/ShivShakti7445/leetcode/tree/master/0085-maximal-rectangle) |
 | [0120-triangle](https://github.com/ShivShakti7445/leetcode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ShivShakti7445/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ShivShakti7445/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -183,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0085-maximal-rectangle](https://github.com/ShivShakti7445/leetcode/tree/master/0085-maximal-rectangle) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/ShivShakti7445/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Union Find
 |  |
@@ -216,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0063-unique-paths-ii](https://github.com/ShivShakti7445/leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/ShivShakti7445/leetcode/tree/master/0064-minimum-path-sum) |
+| [0085-maximal-rectangle](https://github.com/ShivShakti7445/leetcode/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/ShivShakti7445/leetcode/tree/master/0130-surrounded-regions) |
 | [0542-01-matrix](https://github.com/ShivShakti7445/leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/ShivShakti7445/leetcode/tree/master/0733-flood-fill) |
@@ -234,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/ShivShakti7445/leetcode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/ShivShakti7445/leetcode/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/ShivShakti7445/leetcode/tree/master/0072-edit-distance) |
+| [0085-maximal-rectangle](https://github.com/ShivShakti7445/leetcode/tree/master/0085-maximal-rectangle) |
 | [0115-distinct-subsequences](https://github.com/ShivShakti7445/leetcode/tree/master/0115-distinct-subsequences) |
 | [0120-triangle](https://github.com/ShivShakti7445/leetcode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ShivShakti7445/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
