@@ -136,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/ShivShakti7445/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/ShivShakti7445/leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [1826-maximum-xor-with-an-element-from-array](https://github.com/ShivShakti7445/leetcode/tree/master/1826-maximum-xor-with-an-element-from-array) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/ShivShakti7445/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/ShivShakti7445/leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1753-path-with-minimum-effort](https://github.com/ShivShakti7445/leetcode/tree/master/1753-path-with-minimum-effort) |
+| [1826-maximum-xor-with-an-element-from-array](https://github.com/ShivShakti7445/leetcode/tree/master/1826-maximum-xor-with-an-element-from-array) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -382,4 +384,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/ShivShakti7445/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/ShivShakti7445/leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [1826-maximum-xor-with-an-element-from-array](https://github.com/ShivShakti7445/leetcode/tree/master/1826-maximum-xor-with-an-element-from-array) |
 <!---LeetCode Topics End-->
