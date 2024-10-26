@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0018-4sum](https://github.com/ShivShakti7445/leetcode/tree/master/0018-4sum) |
 | [0086-partition-list](https://github.com/ShivShakti7445/leetcode/tree/master/0086-partition-list) |
 | [0455-assign-cookies](https://github.com/ShivShakti7445/leetcode/tree/master/0455-assign-cookies) |
 | [1129-longest-string-chain](https://github.com/ShivShakti7445/leetcode/tree/master/1129-longest-string-chain) |
@@ -149,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0018-4sum](https://github.com/ShivShakti7445/leetcode/tree/master/0018-4sum) |
 | [0063-unique-paths-ii](https://github.com/ShivShakti7445/leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/ShivShakti7445/leetcode/tree/master/0064-minimum-path-sum) |
 | [0085-maximal-rectangle](https://github.com/ShivShakti7445/leetcode/tree/master/0085-maximal-rectangle) |
@@ -329,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0018-4sum](https://github.com/ShivShakti7445/leetcode/tree/master/0018-4sum) |
 | [0368-largest-divisible-subset](https://github.com/ShivShakti7445/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0455-assign-cookies](https://github.com/ShivShakti7445/leetcode/tree/master/0455-assign-cookies) |
 | [0721-accounts-merge](https://github.com/ShivShakti7445/leetcode/tree/master/0721-accounts-merge) |
