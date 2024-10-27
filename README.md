@@ -270,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ShivShakti7445/leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ShivShakti7445/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0967-minimum-falling-path-sum](https://github.com/ShivShakti7445/leetcode/tree/master/0967-minimum-falling-path-sum) |
+| [1013-fibonacci-number](https://github.com/ShivShakti7445/leetcode/tree/master/1013-fibonacci-number) |
 | [1121-partition-array-for-maximum-sum](https://github.com/ShivShakti7445/leetcode/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/ShivShakti7445/leetcode/tree/master/1129-longest-string-chain) |
 | [1250-longest-common-subsequence](https://github.com/ShivShakti7445/leetcode/tree/master/1250-longest-common-subsequence) |
@@ -351,10 +352,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/ShivShakti7445/leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/ShivShakti7445/leetcode/tree/master/0070-climbing-stairs) |
 | [0368-largest-divisible-subset](https://github.com/ShivShakti7445/leetcode/tree/master/0368-largest-divisible-subset) |
+| [1013-fibonacci-number](https://github.com/ShivShakti7445/leetcode/tree/master/1013-fibonacci-number) |
 ## Memoization
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/ShivShakti7445/leetcode/tree/master/0070-climbing-stairs) |
+| [1013-fibonacci-number](https://github.com/ShivShakti7445/leetcode/tree/master/1013-fibonacci-number) |
 ## Combinatorics
 |  |
 | ------- |
@@ -374,6 +377,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/ShivShakti7445/leetcode/tree/master/0044-wildcard-matching) |
+| [1013-fibonacci-number](https://github.com/ShivShakti7445/leetcode/tree/master/1013-fibonacci-number) |
 ## Binary Indexed Tree
 |  |
 | ------- |
