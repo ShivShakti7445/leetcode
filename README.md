@@ -313,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/ShivShakti7445/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0208-implement-trie-prefix-tree](https://github.com/ShivShakti7445/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/ShivShakti7445/leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0721-accounts-merge](https://github.com/ShivShakti7445/leetcode/tree/master/0721-accounts-merge) |
@@ -321,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/ShivShakti7445/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0044-wildcard-matching](https://github.com/ShivShakti7445/leetcode/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/ShivShakti7445/leetcode/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/ShivShakti7445/leetcode/tree/master/0115-distinct-subsequences) |
@@ -403,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/ShivShakti7445/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/ShivShakti7445/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Prefix Sum
 |  |
