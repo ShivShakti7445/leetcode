@@ -180,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/ShivShakti7445/leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/ShivShakti7445/leetcode/tree/master/0733-flood-fill) |
 | [0854-making-a-large-island](https://github.com/ShivShakti7445/leetcode/tree/master/0854-making-a-large-island) |
+| [0966-binary-subarrays-with-sum](https://github.com/ShivShakti7445/leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/ShivShakti7445/leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/ShivShakti7445/leetcode/tree/master/1036-rotting-oranges) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/ShivShakti7445/leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -318,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/ShivShakti7445/leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0424-longest-repeating-character-replacement](https://github.com/ShivShakti7445/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0721-accounts-merge](https://github.com/ShivShakti7445/leetcode/tree/master/0721-accounts-merge) |
+| [0966-binary-subarrays-with-sum](https://github.com/ShivShakti7445/leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/ShivShakti7445/leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1129-longest-string-chain](https://github.com/ShivShakti7445/leetcode/tree/master/1129-longest-string-chain) |
 ## String
@@ -409,9 +411,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ShivShakti7445/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/ShivShakti7445/leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0966-binary-subarrays-with-sum](https://github.com/ShivShakti7445/leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/ShivShakti7445/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Prefix Sum
 |  |
 | ------- |
+| [0966-binary-subarrays-with-sum](https://github.com/ShivShakti7445/leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/ShivShakti7445/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 <!---LeetCode Topics End-->
