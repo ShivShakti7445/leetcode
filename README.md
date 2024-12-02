@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/ShivShakti7445/leetcode/tree/master/0011-container-with-most-water) |
 | [0018-4sum](https://github.com/ShivShakti7445/leetcode/tree/master/0018-4sum) |
 | [0086-partition-list](https://github.com/ShivShakti7445/leetcode/tree/master/0086-partition-list) |
 | [0125-valid-palindrome](https://github.com/ShivShakti7445/leetcode/tree/master/0125-valid-palindrome) |
@@ -152,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/ShivShakti7445/leetcode/tree/master/0011-container-with-most-water) |
 | [0018-4sum](https://github.com/ShivShakti7445/leetcode/tree/master/0018-4sum) |
 | [0063-unique-paths-ii](https://github.com/ShivShakti7445/leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/ShivShakti7445/leetcode/tree/master/0064-minimum-path-sum) |
@@ -382,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/ShivShakti7445/leetcode/tree/master/0011-container-with-most-water) |
 | [0044-wildcard-matching](https://github.com/ShivShakti7445/leetcode/tree/master/0044-wildcard-matching) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ShivShakti7445/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0455-assign-cookies](https://github.com/ShivShakti7445/leetcode/tree/master/0455-assign-cookies) |
