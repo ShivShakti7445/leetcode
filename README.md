@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/ShivShakti7445/leetcode/tree/master/0011-container-with-most-water) |
+| [0016-3sum-closest](https://github.com/ShivShakti7445/leetcode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/ShivShakti7445/leetcode/tree/master/0018-4sum) |
 | [0086-partition-list](https://github.com/ShivShakti7445/leetcode/tree/master/0086-partition-list) |
 | [0125-valid-palindrome](https://github.com/ShivShakti7445/leetcode/tree/master/0125-valid-palindrome) |
@@ -154,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/ShivShakti7445/leetcode/tree/master/0011-container-with-most-water) |
+| [0016-3sum-closest](https://github.com/ShivShakti7445/leetcode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/ShivShakti7445/leetcode/tree/master/0018-4sum) |
 | [0063-unique-paths-ii](https://github.com/ShivShakti7445/leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/ShivShakti7445/leetcode/tree/master/0064-minimum-path-sum) |
@@ -351,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0016-3sum-closest](https://github.com/ShivShakti7445/leetcode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/ShivShakti7445/leetcode/tree/master/0018-4sum) |
 | [0368-largest-divisible-subset](https://github.com/ShivShakti7445/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0455-assign-cookies](https://github.com/ShivShakti7445/leetcode/tree/master/0455-assign-cookies) |
